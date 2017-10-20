@@ -1,27 +1,21 @@
-/*--------------------------------------------------------------
-17 Custom Lang switcher
---------------------------------------------------------------*/
 
-div.top-lang-switch,
-div.top-menu-switch {
+div.lang-switch {
   		padding: 0px !important;
   		border: 0px solid #FFFFFF;
   		text-align: right;
 		}
-div.top-lang-switch ul,
-div.top-menu-switch ul {
+div.lang-switch ul {
   		padding: 0px !important;
   		margin-top: 0px;
+		list-style-type: none;
 		}
-div.top-lang-switch ul li,
-div.top-menu-switch ul li {
+div.lang-switch ul li {
   		float: right;
   		margin: 0px 0px 0px 1px;
   		border: 0px solid;
   		text-align: center;
 		}
-div.top-lang-switch ul li a,
-div.top-menu-switch ul li a {
+div.lang-switch ul li a {
   		color: #FFFFFF !important;
   		background-color: #8c8c8c;
   		font-size: 15px;
@@ -30,41 +24,21 @@ div.top-menu-switch ul li a {
   		padding: 35px 7px 7px 7px;
   		margin: 0px 0px 0px 0px;
 		}
-html[lang="ru-RU"] div.top-menu-switch ul li#menu-item-language-ru a span,
-html[lang="en-US"] div.top-menu-switch ul li#menu-item-language-en a span{
+html[lang="ru-RU"] div.lang-switch ul li#language-ru a span,
+html[lang="en-US"] div.lang-switch ul li#language-en a span{
 		width: 35px !important;
 		min-width: 35px !important;
   		}
-div.top-lang-switch ul li.active a,
-html[lang="ru-RU"]  div.top-menu-switch ul li#menu-item-language-ru a,
-html[lang="en-US"]  div.top-menu-switch ul li#menu-item-language-en a {
+div.lang-switch ul li.active a,
+html[lang="ru-RU"]  div.lang-switch ul li#language-ru a,
+html[lang="en-US"]  div.lang-switch ul li#language-en a {
   		color: #FFFFFF;
   		border-bottom: 5px solid #FFFFFF;
 		}
-div.top-menu-switch ul li#menu-item-71 a {
-  		background-color: transparent !important;
-  		font-size: 0px;
-		}
-div.top-menu-switch ul li#menu-item-71 a::before {
-  		font-family: FontAwesome !important;
-		content: "\f090";
-  		margin-right: 5px;
-		font-size: 18px;
-		}
-div.top-menu-switch ul li#menu-item-72 a {
-  		background-color: transparent !important;
-  		font-size: 0px;
-		}
-div.top-menu-switch ul li#menu-item-72 a::before {
-  		font-family: FontAwesome !important;
-		content: "\f08b";
-  		margin-right: 5px;
-		font-size: 18px;
-		}
-html[lang="ru-RU"]  div.top-menu-switch ul li#menu-item-language-ru a {
+html[lang="ru-RU"]  div.lang-switch ul li#language-ru a {
   		background-color: #0099cc;
 		}
-html[lang="en-US"]  div.top-menu-switch ul li#menu-item-language-en a {
+html[lang="en-US"]  div.lang-switch ul li#language-en a {
   		background-color: #ff0000;
 		}
 
